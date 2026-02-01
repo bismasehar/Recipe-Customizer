@@ -1,0 +1,51 @@
+/* App.css */
+
+/* Container inside App (if needed) */
+.app-container {
+  padding: 20px;
+}
+
+/* Reuseable ingredient button styles */
+.ingredient-btn {
+  margin: 0.5rem;
+  padding: 10px 15px;
+  background-color: #ff8906;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ingredient-btn.selected {
+  background-color: #f25f4c;
+}
+
+/* Generate Recipe Button */
+.generate-btn {
+  margin-top: 1rem;
+  padding: 12px 25px;
+  background-color: #00bbf9;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #00a8e8;
+}
+
+/* Recipe Box Styling */
+.recipe-result {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 700px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
